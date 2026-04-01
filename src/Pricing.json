@@ -1,0 +1,48 @@
+//pricing
+
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "price": "$199",
+    "suffix": "/month",
+    "features": [
+      "Monthly Bookkeeping",
+      "Annual Tax Filing",
+      "Email Support",
+      "Basic Reports"
+    ],
+    "buttonText": "Choose Plan",
+    "popular": false
+  },
+  {
+    "id": 2,
+    "name": "Business",
+    "price": "$499",
+    "suffix": "/month",
+    "features": [
+      "Weekly Bookkeeping",
+      "Quarterly Tax Strategy",
+      "Priority Phone Support",
+      "CFO Dashboard",
+      "Payroll Management"
+    ],
+    "buttonText": "Choose Plan",
+    "popular": true
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "price": "Custom",
+    "suffix": "",
+    "features": [
+      "Dedicated Accounting Team",
+      "Daily Reconciliation",
+      "Audit Preparation",
+      "Financial Forecasting",
+      "Custom Integrations"
+    ],
+    "buttonText": "Choose Plan",
+    "popular": false
+  }
+]

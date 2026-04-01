@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Tax Preparation",
+    "description": "Strategic tax planning and preparation to maximize your returns and ensure compliance.",
+    "link": "#",
+    "icon": "file"
+  },
+  {
+    "id": 2,
+    "title": "Financial Analysis",
+    "description": "In-depth reporting and forecasting to help you make informed business decisions.",
+    "link": "#",
+    "icon": "chart"
+  },
+  {
+    "id": 3,
+    "title": "Audit Defense",
+    "description": "Expert representation and support during IRS audits and financial reviews.",
+    "link": "#",
+    "icon": "shield"
+  }
+]
