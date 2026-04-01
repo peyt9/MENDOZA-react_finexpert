@@ -5,7 +5,8 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-[#f8fafc] py-20 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
-        {/* Left side */}
+        
+        {/* content  */}
         <div>
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
             Let&apos;s Discuss Your Finances
@@ -16,6 +17,7 @@ const Contact = () => {
             form and our team will reach out within 24 hours.
           </p>
 
+    {/* content information */}
           <div className="space-y-5">
             <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center">
@@ -53,7 +55,8 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right side form */}
+       
+       {/* contact form */}
         <div className="bg-white rounded-2xl shadow-md border border-gray-100 p-6 md:p-8">
           <form className="space-y-5">
             <div className="grid sm:grid-cols-2 gap-4">
@@ -114,6 +117,7 @@ const Contact = () => {
               ></textarea>
             </div>
 
+             {/* send message button */}
             <button
               type="submit"
               className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 transition"

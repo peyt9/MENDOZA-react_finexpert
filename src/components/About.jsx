@@ -14,15 +14,19 @@ const About = () => {
   return (
     <section className="relative overflow-hidden bg-[#08152f] py-16 px-6">
       
-      <div className="absolute inset-0 bg-gradient-to-r from-[#07152f] via-[#081a3a] to-[#0e2758]"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-[#07152f] via-[#081a3a] to-[#0e2758]">
+      </div>
 
       
-      <div className="absolute -left-24 bottom-0 h-48 w-48 rounded-full bg-emerald-400/20 blur-3xl"></div>
+      <div className="absolute -left-24 bottom-0 h-48 w-48 rounded-full bg-emerald-400/20 blur-3xl">
+      </div>
 
       <div className="relative z-10 max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
       
-      
-              <div>
+     <div>
+
+
+                {/* content */}
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Why Partner With FinExpert?
           </h2>
